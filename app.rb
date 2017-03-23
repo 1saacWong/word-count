@@ -9,7 +9,17 @@ require('sinatra')
   end
 
   get('/title') do
-    search = params.fetch('search')
-    @input = params.fetch('input').word_count(search)
+
+    @search = params.fetch('search')
+    @input = params.fetch('input')
+    @count = @input.word_count(@search)
     erb(:title)
+  end
+
+  get('/title2') do
+
+    @search2 = params.fetch('search2')
+    @input2 = params.fetch('input2')
+    @count2 = @input2.word_count2(@search2)
+    erb(:title2)
   end
