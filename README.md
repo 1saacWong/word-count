@@ -9,7 +9,9 @@ Make sure you have a good **liver** before deciding to learn coding as a beginne
 
 ![Eat Code Sleep Repeat](http://juicebubble.co.za/wp-content/uploads/2015/11/eat-sleep-code-white.png "Eat Code No-Sleep Repeat")
 
-**This could create a serious damage to your physical and mental health. If you have track record of health issues, please consult your personal medical doctors before beginning.**
+<span style="color:red"> **This could create a serious damage to your physical and mental health. If you have track record of health issues, please consult your personal medical doctors before beginning.**
+</span>
+
 
 ## Installation
 
