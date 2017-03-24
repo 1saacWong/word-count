@@ -12,6 +12,8 @@ Make sure you have a good **liver** before deciding to learn coding as a beginne
 <span style="color:red"> **This could create a serious damage to your physical and mental health. If you have track record of health issues, please consult your personal medical doctors before beginning.**
 </span>
 
+![Eat Code Sleep Repeat](http://www.merakapda.com/img/p/1/0/9/8/1098-home_default.jpg "Eat Code No-Sleep Repeat")
+
 
 ## Installation
 
@@ -44,6 +46,31 @@ $to serve locally (this project is built with ruby 2.2.2) :$ ruby app.rb
 
 or visit the hyperlink:
 (http://word-count-isaac.herokuapp.com/)
+
+**If you got a error message in running rspec**
+
+```
+Something went wrong while loading app.rb
+Gem::ConflictError: Unable to activate sinatra-1.4.7, because rack-2.0.1 conflicts with rack (~> 1.5)
+
+```
+
+Then uninstall the rack version 2.0.1
+
+```
+$ gem uninstall rack
+
+Select gem to uninstall:
+ 1. rack-2.0.1
+ 2. rack-1.6.4
+ 3. All versions
+
+> $ 1
+
+Successfully uninstalled rack-2.0.1
+```
+Solution was found on a Japanese blog. Reference here:
+(http://mitsuakikawamorita.com/blog/?p=3135)
 
 
 ## Contributing
